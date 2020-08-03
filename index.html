@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="moment.min.js"></script>
+<script type="text/javascript" src="moment-with-locales.min.js"></script>
+<script type="text/javascript" src="moment-timezone-with-data.js"></script>
+<script src="nepali.js" type="text/javascript"></script>
+    <title>nepali date time</title>
+</head>
+    
+<body> 
+<body onload=updateClock();>
+<span id="DATE_IN_NEPALI"></span>
+                <span id="clock"></div>
+             
+    <!-- /.container -->
+    
+    
+    <script type="text/javascript">
+        function clock(){
+moment.locale('ne')            
+var time = new Date();
+           
+            var nhour =  moment().tz("Asia/Kathmandu").format('hh');
+            var nmin = moment().tz('Asia/Kathmandu').format('mm')
+            var nsec = moment().tz('Asia/Kathmandu').format('ss') 
+            var nampm = moment().tz('Asia/Kathmandu').format('A')
+            
+            var currentTime = document.getElementById('clock');
+currentTime.innerHTML = "<span id='nhour'>"+nhour+"</span><span class='nmin'>:</span><span id='min'>"+nmin+"</span><span class='nsec'>:</span><span id='sec'>"+nsec+"</span><span id='nampm'> "+nampm+"</span>"
+            setTimeout('clock()',1000); 
+        }    
+        clock();    
+    </script>
+    
+    
+</body>
+
+</html>
