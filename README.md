@@ -5,7 +5,6 @@ clone this repo and include html and javascript files on your project as this is
 you can put index.html file as iframe like: <code><iframe src="index.html" title=""></iframe></code>
 
 ### demo
-<iframe src="index.html" title="">
   ![demo](https://khumnath.github.io/nepali-date-time)
 
 ### screenshot
