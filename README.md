@@ -10,6 +10,8 @@ you can put index.html file as iframe like: <code><iframe src="index.html" title
 
 **note: time is in local to nepal
 
+{% include iframe.html %}
+
 ### screenshot
 ![screenshot](https://github.com/khumnath/nepali-date-time/blob/master/screenshot.png)
 
