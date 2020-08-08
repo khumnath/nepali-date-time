@@ -1,4 +1,4 @@
-# nepali date with nepal local time
+# javascript nepali date with moment js nepal local time
 
 ### setup
 clone this repo and include html and javascript files on your project as this is done.
