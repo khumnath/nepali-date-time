@@ -8,6 +8,8 @@ you can put index.html file as iframe like: <code><iframe src="index.html" title
  Working date and time [link](https://khumnath.github.io/nepali-date-time)
 
 date only demo [link](https://khumnath.github.io/nepali-date-time/dateonly/)
+
+
 **note: time is in local to nepal
 
 
