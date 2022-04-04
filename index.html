@@ -6,8 +6,10 @@
   .bordered {
     width: -webkit-fit-content;
 height: -webkit-fit-content;
-width: -moz-fit-content;
-height: -moz-fit-content;
+    padding: 5px;
+    overflow: hidden;
+    min-width: fit-content;
+}
     
   }
 </style>
@@ -23,7 +25,6 @@ height: -moz-fit-content;
     <title>nepali date time</title>
 </head>
     
-<body style="margin:0px;padding:0px;overflow:hidden; min-width: fit-content;"> 
 <body onload=updateClock();>
 <div class="bordered">
 <span id="DATE_IN_NEPALI"></span>
